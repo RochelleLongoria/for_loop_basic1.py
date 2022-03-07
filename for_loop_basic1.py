@@ -22,14 +22,14 @@ for i in range(1,101):
         print(i)
 """
 """
-4. Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
+#4. Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
 
 Oddtotal = 0
 
 for num in range(1, 500000+1):
     if num%2 != 0:
         Oddtotal = Oddtotal + num
-        print(Oddtotal)
+print(Oddtotal)
 """
 """
 5. Countdown by Fours - Print positive numbers starting at 2018, counting down by fours.
